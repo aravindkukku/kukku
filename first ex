@@ -1,0 +1,47 @@
+aravind@aravind-HP-Laptop-15-bs0xx:~$ mkdir  Devops
+aravind@aravind-HP-Laptop-15-bs0xx:~$ cd
+aravind@aravind-HP-Laptop-15-bs0xx:~$ ls
+aravind  Devops     Downloads         kukku  Pictures  Templates
+Desktop  Documents  examples.desktop  Music  Public    Videos
+aravind@aravind-HP-Laptop-15-bs0xx:~$ cd Devops
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ touch Linuxcommands
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ ls
+Linuxcommands
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ pwd
+/home/aravind/Devops
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ cd Devops
+bash: cd: Devops: No such file or directory
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ mkdir Linuxos
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ cd linuxos
+bash: cd: linuxos: No such file or directory
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ cd Linuxos
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops/Linuxos$ touch About
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops/Linuxos$ nano About
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops/Linuxos$ LS
+The program 'LS' is currently not installed. You can install it by typing:
+sudo apt install sl
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops/Linuxos$ ls
+About
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops/Linuxos$ cd ..
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ mv Linuxos Linux
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ cd Linux
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops/Linux$ pwd
+/home/aravind/Devops/Linux
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops/Linux$ cd ..
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ touch about
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ ls
+about  Linux  Linuxcommands
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ nano About
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ ls
+about  Linux  Linuxcommands
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ cp About Linux
+cp: cannot stat 'About': No such file or directory
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ cp about Linux
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ mp about Devops
+mp: command not found
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ mv about Devops
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ ls
+Devops  Linux  Linuxcommands
+aravind@aravind-HP-Laptop-15-bs0xx:~/Devops$ 
+
+
